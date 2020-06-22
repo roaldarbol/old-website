@@ -1170,7 +1170,7 @@ pre code {
 /* = = = = = = = = = = Footer Styles = = = = = = = = = = */
 .main-footer {
   padding: 15px 0;
-  background-color: #efefef;
+  background-color: #bae4e7;
 }
 
 .main-footer .copyright {
@@ -1483,10 +1483,10 @@ pre code {
 }
 
 .about-header .author-image-container {
-  width: 100px;
-  height: 100px;
-  -webkit-border-radius: 100%;
-          border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   overflow: hidden;
   margin: 0 auto 30px;
 }
