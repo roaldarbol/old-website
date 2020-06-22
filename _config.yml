@@ -35,7 +35,7 @@ discus_identifier: mr-brown # Add your discus identifier
 analytics: # Google Analytics
 
 # Paginate
-paginate: 6
+paginate: 10
 paginate_path: /page:num/
 
 # Build settings
@@ -46,5 +46,5 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-include: ["_pages", "_projects"]
+include: ["_pages"]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
