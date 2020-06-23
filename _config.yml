@@ -1,4 +1,4 @@
-title: Mikkel Roald-Arbøl
+title: Mind the gap
 email: mikkel_roald@hotmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -7,11 +7,14 @@ description: > # this means to ignore newlines until "baseurl:"
 permalink: ':categories/:title/'
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+logo: brain.png
 
 # Author settings
 author: Mikkel Roald-Arbøl # add your name
 author-pic: adam-face.jpg
 about-author: My name is Mikkel Roald-Arbøl, and I am curious.
+about-author-long: My name is Mikkel Roald-Arbøl, and I am curious. 
+
 
 # Contact links
 email: mikkel_roald@hotmail.com # Add your Email address
