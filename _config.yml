@@ -1,20 +1,24 @@
-title: Mind the gap
-email: mikkel_roald@hotmail.com
+title: mind the gap
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Just another PhD student rambling on... 
 permalink: ':categories/:title/'
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-logo: brain.png
+logo: roaldarbol.png
 
 # Author settings
 author: Mikkel Roald-Arbøl # add your name
-author-pic: adam-face.jpg
-about-author: My name is Mikkel Roald-Arbøl, and I am curious.
-about-author-long: My name is Mikkel Roald-Arbøl, and I am curious. 
-
+author-pic: profile.jpg
+about-author: |
+  Neuroscience. </br>
+  Sports science. </br>
+  Data science. </br>
+about-author-long: |
+  Scientist specializing in brains. </br>
+  Biomechanist specializing in sports. </br>
+  Programmer specializing in <i class="fab fa-r-project" aria-hidden="true"></i>. </br>
+      
+    
 
 # Contact links
 email: mikkel_roald@hotmail.com # Add your Email address
@@ -26,6 +30,7 @@ twitter: # Add your Twitter handle
 facebook: # Add your Facebook handle
 instagram: roaldarbol # Add your Instagram handle
 pinterest: # Add your Pinterest handle
+r: roaldarbol
 
 # Newsletter
 mailchimp: # Add your MailChimp form identifier.
