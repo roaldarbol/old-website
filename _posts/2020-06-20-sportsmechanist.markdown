@@ -3,7 +3,7 @@ layout: post
 title: SportsMechanist
 date: 2020-07-26 21:17:00 +0200
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: bottle.jpg # Add image post (optional)
+img: bottled.jpg # Add image post (optional)
 tags: [Science, Sports Science, Biomechanics, Data Science, Pose Estimation]
 categories: projects
 author: 
