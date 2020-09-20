@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
 permalink: ':categories/:title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-logo: roaldarbol.png
+logo: favicon.png
 
 # Author settings
 author: Mikkel Roald-Arbøl # add your name
