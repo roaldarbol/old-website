@@ -1,12 +1,20 @@
 <head>
 	<meta charset="utf-8">
 	<!-- Twitter -->
-	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content=@"{{ site.twitter }}" />
 	<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 	<meta property="og:title" content="{{ page.title }}" />
 	<meta name="twitter:description" content="{{ page.description }}">
 	<meta name="twitter:image" content="https://roaldarbol.github.io/assets/img/{{ page.img }}">
+
+	{% if page.img %}
+		<meta name="twitter:card"  content="summary_large_image">
+		<meta name="twitter:image" content="https://roaldarbol.github.io/assets/img/{{ page.img }}">
+	{% else %}
+		<meta name="twitter:card"  content="summary">
+		<meta name="twitter:image" content="{{ site.logo }}">
+	{% endif %}
+	<!-- end of Twitter -->
 
 	<title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
 	<meta name="description" content="{{ page.description }}">
