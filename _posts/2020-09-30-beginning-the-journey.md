@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Beginning the journey!
-date: 2020-07-27 11:00:00 +0200
+date: 2020-09-30 11:00:00 +0100
 description: In September I'll begin my PhD journey at University of Sussex in the group of Prof. Jeremy Niven, the Laboratory of Computational Evolutionary Neuroscience. 
 img: staysharp.jpg # Add image post (optional)
 tags: [PhD, Science, Neuroscience, Biology]
