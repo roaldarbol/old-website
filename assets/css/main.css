@@ -1231,9 +1231,9 @@ pre code {
   font-weight: 700;
 }
 
-.image-caption {
+/* Image captions */
+img + em {
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
   font-size: 14px;
   font-weight: 400;
   color: gray;

@@ -11,8 +11,7 @@ categories: blog
 toc: true
 ---
 ![Brighton Pier](/assets/img/brightonpier.jpg)
-{:.image-caption} 
-**My new home**. Brighton Pier is at the center of Brighton.
+*My new home. Brighton Pier is at the center of Brighton.*
 
 I have been so lucky to have secured PhD funding from the [Leverhulme Doctoral Scholarship Programme][leverhulme]{:target="blank"} at University of Sussex. That means that I'll move (back) to Brighton for the coming 3-4 years. 
 
