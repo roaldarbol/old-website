@@ -12,9 +12,12 @@ layout: default
       <div class="page-content">
         <div class="header-page">
           <h1 class="page-title">{{page.title}}</h1>
-          <div class="page-date"><time datetime="{{page.date}}">{{page.date | date: '%Y, %b %d'}}</time></div>
+          <h3 class="page-title">{{page.description}}</h3>
+          <div class="page-date"><time datetime="{{page.date}}">{% include post_meta.html type="post-page-meta" %}</time></div>
         </div>
-        {{page.content | markdownify}}
+        <div class="page-body">
+          {{page.content | markdownify}}
+        </div>
         <div class="page-footer">
           <div class="page-tag">
             <span>Tags:</span>

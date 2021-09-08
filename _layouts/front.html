@@ -4,10 +4,9 @@ layout: default
 <div class="flex-container">
   {% include header.html %}
   <article class="article-page">
-    <div class="page-image">
+    <div class="front-image">
       <div class="cover-image" style="background: url({{"/assets/img/" | prepend: site.baseurl | append : page.img}}) center no-repeat; background-size: cover; opacity: 0.7;"></div>
     </div>
-    
   </article>
   {% include search.html %}
   {% include pagination.html %}
