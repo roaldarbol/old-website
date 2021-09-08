@@ -10,7 +10,7 @@ tags: [PhD, Science, Neuroscience, Biology]
 categories: blog
 toc: true
 ---
-{% picture /assets/img/brightonpier.jpg %}
+![Brighton Pier](/assets/img/brightonpier.jpg)
 {:.image-caption} 
 **My new home**. Brighton Pier is at the center of Brighton.
 
