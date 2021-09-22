@@ -1,16 +1,23 @@
 ---
 layout: post
 title: VR for Wood Ants
+description: Yes, you read it right. VR. Virtual reality... for ants. This is such an exciting project, however strange it may sound, and I hope I'll be able to make you excited about it as well during this post. # Add post description
 date: 2020-06-20 21:17:00 +0200
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: eternal-sunset.png # Add image post (optional)
+img: eternal-sunset.png # Add image post
 tags: [Science, Neuroscience, Behaviour]
 categories: projects
-author: # Add name author (optional)
+read_time: true
+show_date: true
 ---
-Yes, you read it right. VR. Virtual reality... for *ants*.
 
-This is such an exciting project, however strange it may sound, and I hope I'll be able to make you excited about it as well during this post.
+<!-- Starting out with a figure looks great!
+Good places to look for open source images are: 
+* Good images, MANY trackers: https://unsplash.com/ 
+* Poor images, few trackers: https://search.creativecommons.org/  -->
+
+![](/assets/img/{{ page.img }})
+*Where to next? By myself*
+<!-- The italicised text will render as the figure caption. -->
 
 # Why virtual reality?
 I think the brain is incredible. Not just the human brain, but any brain really. An organ dedicated to processing information, enabling animals to sense, move and adapt. How did they evolve? *Why* did they evolve? 

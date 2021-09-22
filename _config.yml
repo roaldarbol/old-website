@@ -3,7 +3,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Just another PhD student rambling on... 
 permalink: ':categories/:title/'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://roaldarbol.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://roald-arboel.com" # the base hostname & protocol for your site, e.g. http://example.com
 logo: favicon.png
 
 # Author settings
@@ -53,6 +53,7 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 include: ["_pages"]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]

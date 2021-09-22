@@ -5,13 +5,20 @@ show_date: true
 title: Beginning the journey!
 date: 2020-09-30 11:00:00 +0100
 description: In September I'll begin my PhD journey at University of Sussex in the group of Prof. Jeremy Niven, the Laboratory of Computational Evolutionary Neuroscience. 
-img: staysharp.jpg # Add image post (optional)
+img: brightonpier.jpg # Add image post (optional)
 tags: [PhD, Science, Neuroscience, Biology]
 categories: blog
-toc: true
+# toc: true
 ---
-![Brighton Pier](/assets/img/brightonpier.jpg)
-*My new home. Brighton Pier is at the center of Brighton.*
+
+<!-- Starting out with a figure looks great!
+Good places to look for open source images are: 
+* Good images, MANY trackers: https://unsplash.com/ 
+* Poor images, few trackers: https://search.creativecommons.org/  -->
+
+![](/assets/img/{{ page.img }})
+*Photo by myself of my new hometown, Brighton.*
+<!-- The italicised text will render as the figure caption. -->
 
 I have been so lucky to have secured PhD funding from the [Leverhulme Doctoral Scholarship Programme][leverhulme]{:target="blank"} at University of Sussex. That means that I'll move (back) to Brighton for the coming 3-4 years. 
 
