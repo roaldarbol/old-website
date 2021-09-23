@@ -1,6 +1,6 @@
-title: roaldarbol
-description: > # this means to ignore newlines until "baseurl:"
-  Just another PhD student rambling on... 
+title: Mikkel Roald-Arbøl
+tagline: A journey through PhD life
+description: Just another PhD student rambling on...  #>  this means to ignore newlines until "baseurl:"
 permalink: ':categories/:title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://roald-arboel.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -14,29 +14,33 @@ about-author: |
   Sports science. </br>
   Data science. </br>
 about-author-long: |
-  Scientist specializing in brains. </br>
-  Biomechanist specializing in sports. </br>
-  Programmer specializing in <i class="fab fa-r-project" aria-hidden="true"></i>. </br>
+  <b>PhD student in Neuroscience </br>
+  @ University of Sussex </b></br>
+  I'm passionate about open science and sports </br>
+  and dabble with electronics and code
+resume: Resume_scientific.pdf
       
     
 
 # Contact links
-email: mikkel_roald@hotmail.com # Add your Email address
-phone: +4520320399 # Add your Phone number
+email: # Add your Email address
+phone: # Add your Phone number
 website: # Add your website, do not add http://
 linkedin: mikkel-roald-arbol # Add your Linkedin handle
 github: roaldarbol # Add your Github handle
+orcid: 0000-0002-9998-0058 
 twitter: roaldarbol # Add your Twitter handle
+flickr: roaldarbol
+researchgate: Mikkel-Roald-Arbol
 facebook: # Add your Facebook handle
-instagram: roaldarbol # Add your Instagram handle
+instagram: # Add your Instagram handle
 pinterest: # Add your Pinterest handle
-r: roaldarbol
 
 # Newsletter
 mailchimp: # Add your MailChimp form identifier.
 
 # Disqus
-discus_identifier: mr-brown # Add your discus identifier
+discus_identifier: # Add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
