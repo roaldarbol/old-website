@@ -1,6 +1,6 @@
 <head>
 	<meta charset="utf-8">
-	{% seo %}
+	
 	<!-- Twitter -->
 	<meta name="twitter:site" content=@"{{ site.twitter }}" />
 	<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
@@ -40,4 +40,6 @@
 	<link rel="stylesheet" href="{{ "/assets/fonts/font-awesome/css/all.min.css" | prepend: site.baseurl }}">
 	<!-- Styles -->
 	<link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+	
+	{% seo %}
 </head>
