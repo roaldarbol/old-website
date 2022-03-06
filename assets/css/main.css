@@ -903,7 +903,8 @@ pre code {
 
 /* = = = = = = = = = = Header Styles = = = = = = = = = = */
 .main-header {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
   padding: 15px 0;
   background-color: #fff;
   -webkit-box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.3);
