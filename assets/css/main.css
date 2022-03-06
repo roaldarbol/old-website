@@ -1184,8 +1184,10 @@ pre code {
 
 /* = = = = = = = = = = Footer Styles = = = = = = = = = = */
 .main-footer {
+  position: relative;
+  width: 100%;
   padding: 15px 0;
-  background-color: rgba(255,255,255, 0.9);
+  background-color: rgba(255,255,255, 1);
 }
 
 .main-footer .copyright {
@@ -1503,20 +1505,6 @@ img + em {
   margin-bottom: 30px;
 }
 
-.about-header:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
-  display: block;
-  height: 1px;
-  width: 80px;
-  background-color: #311e3e;
-}
-
 .about-header .author-image-container {
   width: 200px;
   height: 200px;
@@ -1571,21 +1559,22 @@ img + em {
 }
 
 /* = = = = = = = = = Front Page Styles = = = = = = = = */
-.front-image {
-  position: absolute;
+.front-image, cover-text {
+  /* position: absolute; */
   width: 100%;
-  height: 80%;
-  padding: 0;
-  margin: 0;
-  /* width: auto;
-  height: 1200px; */
-  background-color: #fff;
-  overflow: clip;
+  /* background-image: url("/assets/img/houses.jpg"); */
+  background-size: cover;
+  /* opacity: 0.3; */
+  /* background-color: rgba(255,255,255, 0.3); */
+  /* width: 100%; */
+  /* height: 80px; */
+  /* padding: 0; */
+  /* margin: 0; */
+  /* overflow: hidden;  */
 }
 
-.cover-image {
-  height: 100%;
-  width: 100%;
+.cover-text {
+
 }
 
 /* = = = = post's read time and date (meta data) = = = = */
@@ -1757,6 +1746,7 @@ img + em {
   .wrapper {
     max-width: 95%;
   }
+
   .page-content {
     margin-top: -50px;
     padding: 15px;
@@ -1812,7 +1802,7 @@ img + em {
   }
   .about-body .contact-list li a {
     display: block;
-    color: #999999;
+    color: #738FA7;
     font-size: 16px;
     text-decoration: none;
     padding: 5px;

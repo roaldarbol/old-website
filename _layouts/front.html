@@ -3,14 +3,10 @@ layout: default
 ---
 <div class="flex-container">
   {% include header.html %}
-  <article class="article-page">
     <div class="front-image">
-      <div class="cover-image" style="background: url({{"/assets/img/" | prepend: site.baseurl | append : page.img}}) center no-repeat; background-size: cover; opacity: 0.3;"></div>
+      <div class="cover-image"></div>
+        {{ content }}
     </div>
-  </article>
-  <div class="content wrapper">
-    {{ content }}
-  <!-- {% include search.html %} -->
-  <!-- {% include pagination.html %} -->
-  </div>
+  {% include footer.html %}
 </div>
+
