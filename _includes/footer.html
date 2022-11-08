@@ -11,24 +11,24 @@
         <li class="email"><a href="mailto:{{site.email}}"><i class="far fa-envelope"></i></a></li>
       {% endif %}
 
+      {% if site.orcid %}
+      <li class="orcid"><a href="https://orcid.org/{{site.orcid}}" target="_blank"><i class="fab fa-orcid"></i></a></li>
+      {% endif %}
+
+      {% if site.github %}
+      <li class="github"><a href="http://github.com/{{site.github}}" target="_blank"><i class="fab fa-github"></i></a></li>
+      {% endif %}
+
+      {% if site.mastodon %}
+        <li class="mastodon"><a href="https://ecoevo.social/@{{site.mastodon}}" target="_blank"><i class="fab fa-mastodon"></i></a></li>
+      {% endif %}
+
       {% if site.twitter %}
         <li class="twitter"><a href="https://twitter.com/{{site.twitter}}" target="_blank"><i class="fab fa-twitter"></i></a></li>
       {% endif %}
 
-      {% if site.orcid %}
-        <li class="orcid"><a href="https://orcid.org/{{site.orcid}}" target="_blank"><i class="fab fa-orcid"></i></a></li>
-      {% endif %}
-
-      {% if site.researchgate %}
-        <li class="researchgate"><a href="https://www.researchgate.net/profile/{{site.researchgate}}" target="_blank"><i class="fab fa-researchgate"></i></a></li>
-      {% endif %}
-
       {% if site.linkedin %}
         <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-      {% endif %}
-
-      {% if site.github %}
-        <li class="github"><a href="http://github.com/{{site.github}}" target="_blank"><i class="fab fa-github"></i></a></li>
       {% endif %}
 
       {% if site.flickr %}
